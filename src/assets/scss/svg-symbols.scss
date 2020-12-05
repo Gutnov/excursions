@@ -1,6 +1,4 @@
 
-$icon-arrod-down-width: 13px;
-$icon-arrod-down-height: 8px;
 $icon-arrow-down-width: 451px;
 $icon-arrow-down-height: 451px;
 $icon-checked-width: 10px;
@@ -13,15 +11,8 @@ $icon-ellipse-1-width: 33px;
 $icon-ellipse-1-height: 33px;
 $icon-ellipse-2-width: 33px;
 $icon-ellipse-2-height: 33px;
-$icon-icon-width: 16px;
-$icon-icon-height: 14px;
 $icon-search-width: 17px;
 $icon-search-height: 17px;
-
-.arrod-down {
-  width: $icon-arrod-down-width;
-  height: $icon-arrod-down-height;
-}
 
 .arrow-down {
   width: $icon-arrow-down-width;
@@ -51,11 +42,6 @@ $icon-search-height: 17px;
 .ellipse-2 {
   width: $icon-ellipse-2-width;
   height: $icon-ellipse-2-height;
-}
-
-.icon {
-  width: $icon-icon-width;
-  height: $icon-icon-height;
 }
 
 .search {
