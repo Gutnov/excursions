@@ -5,8 +5,6 @@
 $(document).ready(function()
 {
 	o2.init();
-
-	o2.uiKit.init();
 });
 
 /**
