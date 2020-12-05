@@ -1,0 +1,97 @@
+@import './vendors/_flaticon' ;
+
+.excursions {
+	padding-top: 28px;
+	text-align: center;
+	padding-bottom: 51px;
+}
+
+.excursions__top {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 735px;
+	margin: 0 auto;
+	margin-bottom: 52px;
+
+	p {
+		font-size: 12.5px;
+		line-height: 16px;
+		font-weight: 500;
+		letter-spacing: 0.06em;
+		color: #343434;
+		margin-bottom: 10px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+.excursions__company-name {
+	margin-bottom: 3px;
+	font-size: 16.7px;
+	line-height: 1.2;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: #2f2c34;
+}
+.excursions__title {
+	position: relative;
+	width: max-content;
+	margin: 0 auto;
+	margin-bottom: 16px;
+	font-family: 'Romul';
+	font-size: 37.5px;
+	line-height: 1.2;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #2f2c34;
+
+	&:before, &:after {
+		content: '';
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 80px;
+		height: 2px;
+		background-color: #d0aa8c;
+		left: calc(100% + 16px);
+		z-index: -1;
+	}
+	&:after {
+		left: auto;
+		right: calc(100% + 16px);
+	}
+}
+.excursions__items {
+	display: grid;
+	grid-template-columns:  1fr 1fr;
+	grid-gap: 44px 60px;
+}
+
+
+@media (max-width:768px) {
+	.excursions {
+		margin-top: 114px;
+	}
+	.excursions__title {
+		font-size: 30px;
+	}
+	.excursions__company-name {
+		font-size: 12px;
+	}
+	.excursions__items {
+		grid-template-columns:  1fr;
+		grid-column-gap: 0;
+		grid-row-gap: 70px;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 475px) {
+	.excursions__title {
+		&:before, &:after {
+			display: none;
+		}
+	}
+}

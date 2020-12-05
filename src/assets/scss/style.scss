@@ -1,0 +1,79 @@
+/* mixins */
+@import 'base/mixins.scss';
+
+/* base */
+@import 'base/fonts';
+@import 'base/variables';
+@import 'base/normalize';
+@import 'base/typography';
+@import 'base/default';
+@import 'base/prettify';
+
+/* blocks */
+@import 'blocks/footer/footer';
+@import 'blocks/header/header';
+@import 'blocks/g-button/g-button';
+@import 'blocks/g-tabs/g-tabs';
+@import 'blocks/g-select/g-select';
+@import 'blocks/g-range-slider/g-range-slider';
+@import 'blocks/g-checkbox/g-checkbox';
+@import 'blocks/g-radio/g-radio';
+@import 'blocks/g-input/g-input';
+@import 'blocks/g-input/--icon';
+@import 'blocks/g-date-picker/g-date-picker';
+@import 'blocks/g-slider/g-slider';
+@import 'blocks/g-popup/g-popup';
+@import 'blocks/g-input-file/g-input-file';
+@import 'blocks/g-pagination/g-pagination';
+@import 'blocks/notification/notification';
+@import 'blocks/excursions/excursions';
+@import 'blocks/excursion/excursion';
+
+/* pages */
+@import 'pages/ui-kit/ui-kit';
+@import 'pages/index/index';
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: 0;
+	&:before,
+	&:after {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+html {
+	-webkit-font-smoothing: antialiased;
+}
+body
+{
+	font-family: $accent-font;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.5;
+	min-width: 320px;
+	overflow-x: hidden;
+
+
+	&.overflov-y {
+		overflow-y: hidden;
+	}
+}
+.wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.main {
+	flex-grow: 1;
+}
+.container {
+	position: relative;
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.svg-symbol {display: none;}

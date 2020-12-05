@@ -1,0 +1,55 @@
+@font-face
+{
+	font-family: 'Montserrat';
+	src: url('./fonts/Montserrat/Montserrat-Regular.eot'),
+		url('./fonts/Montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/Montserrat/Montserrat-Regular.woff2') format('woff2'),
+		url('./fonts/Montserrat/Montserrat-Regular.woff') format('woff'),
+		url('./fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face
+{
+	font-family: 'Montserrat';
+	src: url('./fonts/Montserrat/Montserrat-Medium.eot');
+	src: url('./fonts/Montserrat/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/Montserrat/Montserrat-Medium.woff2') format('woff2'),
+		url('./fonts/Montserrat/Montserrat-Medium.woff') format('woff'),
+		url('./fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face
+{
+	font-family: 'Romul';
+	src: url('./fonts/RomulC/RomulC.eot');
+	src: url('./fonts/RomulC/RomulC.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/RomulC/RomulC.woff2') format('woff2'),
+		url('./fonts/RomulC/RomulC.woff') format('woff'),
+		url('./fonts/RomulC/RomulC.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Flaticon";
+	src: url("./fonts/Flaticon/Flaticon.eot");
+	src: url("./fonts/Flaticon/Flaticon.eot?#iefix") format("embedded-opentype"),
+	   url("./fonts/Flaticon/Flaticon.woff2") format("woff2"),
+	   url("./fonts/Flaticon/Flaticon.woff") format("woff"),
+	   url("./fonts/Flaticon/Flaticon.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+	font-family: "Flaticon";
+	src: url("./fonts/Flaticon/Flaticon.svg#Flaticon") format("svg");
+	}
+}

@@ -1,0 +1,32 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 04/12/2020 17:58
+    */
+
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+.flaticon-google-plus:before { content: "\f100"; }
+.flaticon-instagram:before { content: "\f101"; }
+.flaticon-facebook:before { content: "\f102"; }
+.flaticon-linkedin-logo:before { content: "\f103"; }
+.flaticon-linkedin-sign:before { content: "\f104"; }
+    
+    $font-Flaticon-google-plus: "\f100";
+    $font-Flaticon-instagram: "\f101";
+    $font-Flaticon-facebook: "\f102";
+    $font-Flaticon-linkedin-logo: "\f103";
+    $font-Flaticon-linkedin-sign: "\f104";

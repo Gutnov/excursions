@@ -1,0 +1,78 @@
+.excursion {
+	p {
+		font-size: 12.5px;
+		line-height: 1.2;
+		font-weight: 500;
+		color: #2f2c34;
+	}
+	img {
+		display: block;
+		max-width: 100%;
+		object-fit: contain;
+		margin-bottom: 15px;
+	}
+}
+.excursion__title {
+	position: relative;	
+	margin-top: 0;
+	margin-bottom: 40px;
+	font-family: 'Romul';
+	font-size: 25px;
+	font-weight: 400;
+	letter-spacing: 0.06em;
+	color: #2f2c34;
+
+	&.letter-spasing {letter-spacing: -0.025em;	}
+
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: -18px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 90px;
+		height: 1px;
+		background-color: #d0aa8c;
+	}
+}
+.excursion__text {
+	margin-bottom: 27px;
+
+	p {
+		margin-top: 0;
+		margin-bottom: 16px;
+
+		&:last-child{margin-bottom: 0;}
+	}
+}
+.excursion__btn {
+	display: block;
+	min-height: 43px;
+	width: max-content;
+	padding: 0 82px;
+	padding-top: 10px;
+	margin: 0 auto;
+	border: 2px solid #2f2c34;
+	font-size: 14.6px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: #2f2c34;
+	transition: all .2s linear;
+
+	&:hover {
+		background-color: #ccc;
+		border-color: #ccc;
+		color: #fff;
+	}
+}
+@media (max-width: 960px) {
+	.excursion__title {font-size: 2.5vw;}
+}
+@media (max-width: 768px) {
+	.excursion img {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.excursion__title {font-size: 22px;}
+}
